@@ -28,12 +28,12 @@ body{
 }
 
 .foot{
+  position: absolute;
   background-color: #676767;
-  display: flex;
-  margin-top: 100px;
   height: 124px;
   bottom:0;
   text-align: right;
+  width: 100%;
 }
 
 .copyright{
@@ -42,7 +42,7 @@ body{
   font-weight: 500;
   font-size: 12px;
   color: white;
-  margin-left: 95%;
+  text-align: right;
 }
 
 .section{
@@ -55,26 +55,32 @@ img{
   display: flex;
   width: 170px;
   height: 131px;
-  border: 10px solid black;
 }
 
 .img1{
-  margin-right: 45px;
+  margin-right: 40px;
 
+}
+#simplon{
+    border: 1px solid black;
 }
 
 .img2{
-  margin-left: 45px;
+  margin-left: 40px;
+}
+#presentation{
+    border: 1px solid black;
 }
 
 .click1{
   display: flex;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
   justify-content: center;
   color: #676767;
   cursor: pointer;;
+  margin-top: 26px;
 
 }
 
@@ -82,10 +88,11 @@ img{
   display: flex;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
   justify-content: center;
   color: #676767;
   cursor: pointer;
+  margin-top: 26px;
 }
 
 .overlay{
@@ -120,6 +127,5 @@ img{
   margin-left: 92%;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
-
-
+  border: 1px solid black;
 }
